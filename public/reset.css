@@ -11,7 +11,7 @@
 @font-face {
     font-family: 'NanumSquareLight';
     src: url(./font/nanum-square/NanumSquareL.eot);
-    src: url(./font/nanum-square/NanumSquareL.eot?#iefix) format("embedded-opentype"), 
+    src: url(./font/nanum-square/NanumSquareL.eot?#iefix) format("embedded-opentype"), /*디바이스 최적화 ex8 까지 해준다는 의미*/
          url(./font/nanum-square/NanumSquareL.woff) format("woff"), 
          url(./font/nanum-square/NanumSquareL.ttf) format("truetype");
 }
@@ -30,6 +30,39 @@
     src: url(./font/nanum-square/NanumSquareB.eot?#iefix) format("embedded-opentype"),
          url(./font/nanum-square/NanumSquareB.woff) format("woff"), 
          url(./font/nanum-square/NanumSquareB.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: 'NanumSquareRound';
+    src: url(./font/nanum-square-round/NanumSquareRoundR.eot);
+    src: url(./font/nanum-square-round/NanumSquareRoundR.eot?#iefix) format("embedded-opentype"),
+         url(./font/nanum-square-round/NanumSquareRoundR.woff2) format("woff2"), url(../webfont/NanumSquareRound/NanumSquareRoundR.woff) format("woff"), 
+         url(./font/nanum-square-round/NanumSquareRoundR.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: 'NanumSquareRoundB';
+    src: url(./font/nanum-square-round/NanumSquareRoundB.eot);
+    src: url(./font/nanum-square-round/NanumSquareRoundB.eot?#iefix) format("embedded-opentype"),
+         url(./font/nanum-square-round/NanumSquareRoundB.woff2) format("woff2"), 
+         url(./font/nanum-square-round/NanumSquareRoundB.woff) format("woff"), 
+         url(./font/nanum-square-round/NanumSquareRoundB.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: 'NanumSquareRoundEB';
+    src: url(./font/nanum-square-round/NanumSquareRoundEB.eot);
+    src: url(./font/nanum-square-round/NanumSquareRoundEB.eot?#iefix) format("embedded-opentype"),
+         url(./font/nanum-square-round/NanumSquareRoundEB.woff2) format("woff2"), url(../webfont/NanumSquareRound/NanumSquareRoundEB.woff) format("woff"), 
+         url(./font/nanum-square-round/NanumSquareRoundEB.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: 'NanumSquareRoundL';
+    src: url(../webfont/NanumSquareRound/NanumSquareRoundL.eot);
+    src: url(../webfont/NanumSquareRound/NanumSquareRoundL.eot?#iefix) format("embedded-opentype"),
+         url(../webfont/NanumSquareRound/NanumSquareRoundL.woff2) format("woff2"), url(../webfont/NanumSquareRound/NanumSquareRoundL.woff) format("woff"), 
+         url(../webfont/NanumSquareRound/NanumSquareRoundL.ttf) format("truetype");
 }
 
 /* Hangeul Maruburi Font */
@@ -86,3 +119,4 @@ select:-webkit-autofill:focus {
   box-shadow: 0 0 0px 1000px #fff inset;
   -webkit-box-shadow: 0 0 0px 1000px #fff inset;
 }
+#maru {font-family: 'MaruBuri','NanumSquareRoundEB'; font-size: 30px; margin: 10px 20px;}
