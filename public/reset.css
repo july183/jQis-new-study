@@ -24,6 +24,13 @@
          url(./font/nanum-square/NanumSquareEB.ttf) format("truetype");
 }
 
+@font-face {
+    font-family: 'NanumSquareBold';
+    src: url(./font/nanum-square/NanumSquareB.eot);
+    src: url(./font/nanum-square/NanumSquareB.eot?#iefix) format("embedded-opentype"),
+         url(./font/nanum-square/NanumSquareB.woff) format("woff"), 
+         url(./font/nanum-square/NanumSquareB.ttf) format("truetype");
+}
 
 /* Hangeul Maruburi Font */
 @font-face {
